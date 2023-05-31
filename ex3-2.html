@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h2>JavaScript Template Literals</h2>
+<p id="demo"></p>
+<p id="demo1"></p>
+<script>
+	let MovieName = "Transformers"; 
+	let Starring = "Meghan Fox"; 
+	let Language = "English"; 
+	var Rating = "7.9"; 
+	let Movie = "San Andreas"; 
+	let Cast = "Dwayne Johnson"; 
+	let Lang = "English"; 
+	var Ratings = "8.5"; 
+	let text = `The movie  "${MovieName}" starring  ${Starring} originally in ${Language} has rating of ${Rating}`; 
+		document.getElementById("demo").innerHTML = text; 
+	let text1= `The movie  "${Movie}" starring  ${Cast} originally in ${Lang} has rating of ${Ratings}`; 
+		document.getElementById("demo1").innerHTML = text1; 
+</script>
+</body>
+</html>
